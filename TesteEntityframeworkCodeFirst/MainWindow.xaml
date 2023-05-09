@@ -1,0 +1,54 @@
+﻿<Window x:Class="TesteEntityframework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TesteEntityframework"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+    <Grid>
+        <Button x:Name="BtnCriar"
+                Content="Criar"
+                HorizontalAlignment="Left"
+                Margin="84,126,0,0"
+                VerticalAlignment="Top"
+                Click="BtnCriar_Click"
+                Height="45"
+                Width="71" />
+        <Button x:Name="btnLer"
+                Content="Ler"
+                HorizontalAlignment="Left"
+                Margin="190,126,0,0"
+                VerticalAlignment="Top"
+                Height="45"
+                Width="72"
+                Click="btnLer_Click" />
+        <Button x:Name="BtnAtualizar"
+                Content="Atualizar"
+                HorizontalAlignment="Left"
+                Margin="295,126,0,0"
+                VerticalAlignment="Top"
+                Height="45"
+                Width="77"
+                Click="BtnAtualizar_Click" />
+        <Button x:Name="btnDeletar"
+                Content="Deletar"
+                HorizontalAlignment="Left"
+                Margin="413,126,0,0"
+                VerticalAlignment="Top"
+                Height="45"
+                Width="72"
+                Click="btnDeletar_Click" />
+        <Button x:Name="btnCriarPost"
+                Content="Criar Post"
+                HorizontalAlignment="Left"
+                Margin="537,126,0,0"
+                VerticalAlignment="Top"
+                Height="45"
+                Width="69"
+                Click="btnCriarPost_Click" />
+
+    </Grid>
+</Window>
